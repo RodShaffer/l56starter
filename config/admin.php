@@ -21,7 +21,7 @@ return [
     | This is the title of your website.
     |
     */
-    'title' => 'L56starter.com',
+    'title' => 'L56starter W/ Blog',
 
     /*
     |--------------------------------------------------------------------------

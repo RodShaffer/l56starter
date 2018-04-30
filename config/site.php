@@ -21,7 +21,7 @@ return [
     | This is the title of your website.
     |
     */
-    'title' => 'L56starter.com',
+    'title' => 'L56starter W/ Blog',
 
     /*
     |--------------------------------------------------------------------------
@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'user_reg_subject' => 'Account Verification',
+    'user_reg_subject' => 'New Account Verification',
 
     /*
     |--------------------------------------------------------------------------

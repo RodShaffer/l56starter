@@ -64,7 +64,6 @@
 
 <!-- Application Scripts and ckeditor -->
     <script src="{{ asset('js/app.js') }}"></script>
-    <script type="text/javascript" src="/js/ckeditor/ckeditor.js"></script>
 
 <!-- Script Footer (extra scripts if needed) -->
 @yield('script_footer')

@@ -71,7 +71,7 @@
 
                                                                 @if(auth()->user()->can('permission_destroy'))
 
-                                                                    @if($permissions[$i]->id < 15)
+                                                                    @if($permissions[$i]->id < 20)
 
                                                                         <div class="form-check">
                                                                             <input class="form-check-input position-static"
