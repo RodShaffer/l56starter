@@ -1,0 +1,382 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                   //
+// l56starter Administration Default Theme                                                                           //
+//                                                                                                                   //
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+// Variables
+@import "variables";
+// Bootstrap 4
+@import "~bootstrap/scss/bootstrap";
+// Select2
+@import "select2.css";
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                   //
+// Default HTML Styles                                                                                               //
+//                                                                                                                   //
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+body {
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+  padding-top: 4.5rem;
+  background-image: url(/images/admin/site_bkg.png);
+  overflow-x: hidden;
+}
+
+p {
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                   //
+// Bootstrap 4 Styles                                                                                                //
+//                                                                                                                   //
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// Nav / Navbar Styles
+.navbar-brand {
+  color: #00A676 !important;
+  font-size: 1.25rem;
+}
+
+.navbar-brand:hover {
+  color: #FC9F5B !important;
+}
+
+.navbar ul li a {
+  font-size: 1rem;
+  color: #00A676;
+  padding: .65rem;
+}
+
+.navbar ul li a:hover {
+  color: #FC9F5B !important;
+  background-color: #ffffff;
+}
+
+.dropdown-item:hover {
+  color: #FC9F5B !important;
+  background-color: #E9FFAA !important;
+}
+
+.nav-item.active {
+  background-color: #ffffff !important;
+}
+/* END - Nav / Navbar Styles */
+
+
+// Card Styles
+.card {
+  border-radius: .25rem;
+  border: 1px solid #a6d3a0;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.card-header {
+  color: #FC9F5B;
+}
+/* END - Card Styles */
+
+
+// Custom Control Styles
+.custom-control-label::before,
+.custom-control-label::after {
+  top: .5rem;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+/* END - Custom Control Styles */
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                   //
+// Select 2 Styles                                                                                                   //
+//                                                                                                                   //
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// Select2 Styles
+.select2 {
+  width: 100% !important;
+}
+/* End Select2 Styles */
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                   //
+// Theme Specific Styles                                                                                             //
+//                                                                                                                   //
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// Site Header Styles
+.cgadmin-site-header-container {
+  margin: 0 1rem 0 0 !important;
+}
+
+.cgadmin-site-header {
+  background-color: #ffffff;
+  background-image: url(/images/admin/header_bkg.png);
+  background-repeat: repeat-x;
+  height: 180px;
+}
+
+.cgadmin-company-name {
+  margin: 0;
+  padding: .25rem 0 0 .75rem;
+}
+
+.cgadmin-slogan {
+  font-size: 20px;
+  color: #FC9F5B;
+  padding: 0 0 0 120px;
+}
+
+.cgadmin-header-info-container {
+  margin: 1rem 2rem 0 0 !important;
+}
+
+.cgadmin-header-info-card-body {
+  background-color: #ffffff;
+  padding: 1rem 1.5rem 1rem 1rem;
+}
+
+.cgadmin-header-info-gravatar {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+.cgadmin-header-info-date {
+  font-size: 16px;
+  font-weight: bold;
+  color: #FC9F5B;
+  white-space: nowrap;
+}
+
+.cgadmin-header-info-links {
+  padding: 0 6rem 0 0;
+}
+
+.cgadmin-header-info-user-status {
+  font-size: 14px;
+  white-space: nowrap;
+}
+/* END - Site Header Styles */
+
+
+// Dashboard Styles
+.cgadmin-db-heading {
+  font-size: 1.25rem;
+  color: #0c7489;
+}
+
+.cgadmin-count {
+  color: red;
+}
+
+.cgadmin-stats-text {
+  font-size: 1.25rem;
+}
+
+.cgadmin-stats-container {
+  padding: .5rem 1rem 0 1rem;
+}
+
+.cgadmin-user-stats-container {
+  height: 300px;
+  margin: 1rem 0 2rem 0;
+}
+
+.cgadmin-user-stats {
+  border: 1px solid #e6fcaf;
+  background-image: url(/images/admin/user-stats-bkg-img.jpg);
+  background-repeat: no-repeat;
+  padding: 0 0 0 1rem;
+}
+
+.cgadmin-role-stats-container {
+  height: 300px;
+  margin: 1rem 0 2rem 0;
+}
+
+.cgadmin-role-stats {
+  border: 1px solid #e6fcaf;
+  background-image: url(/images/admin/role-stats-bkg-img.jpg);
+  background-repeat: no-repeat;
+  padding: 0 0 0 1rem;
+}
+
+.cgadmin-permission-stats-container {
+  height: 300px;
+  margin: 1rem 0 1.5rem 0;
+}
+
+.cgadmin-permission-stats {
+  border: 1px solid #e6fcaf;
+  background-image: url(/images/admin/permission-stats-bkg-img.jpg);
+  background-repeat: no-repeat;
+  padding: 0 0 0 1rem;
+}
+/* END - Dashboard Styles */
+
+
+// Image Styles
+.cgadmin-image {
+  width: auto;
+  height: 100%;
+}
+/*END - Image Styles */
+
+
+// Heading Styles
+.cgadmin-heading {
+  color: #FC9F5B;
+  border-bottom: 1px solid #bfedb9;
+}
+/*END - Heading Styles */
+
+
+// Dropdown Styles
+.cgadmin-dropdown-header {
+  background-color: #eeeeee;
+}
+/*END - Dropdown Styles */
+
+
+// Site Footer Styles
+.cgadmin-copyright {
+  font-size: 18px;
+}
+/* END - Site Footer Styles */
+
+
+// Form Styles
+.cgadmin-disabled {
+  cursor: not-allowed;
+}
+
+.cgadmin-form-text-error {
+  font-size: medium;
+  color: #fe5e41;
+}
+
+.cgadmin-form-no-edit {
+  color: #fe5e41;
+}
+
+.cgadmin-field-required:before {
+  content: '*';
+  color: red;
+  padding-right: 5px;
+}
+
+.cgadmin-form-text-verified {
+  font-size: 16px;
+  color: #139a43;
+}
+
+.cgadmin-form-text-unverified {
+  font-size: 16px;
+  color: #fe5e41;
+}
+
+.cgadmin-form-input-disabled {
+  color: #FC9F5B;
+}
+/* END - Form Styles */
+
+
+/* Button Styles */
+.cgadmin-hor-btn-group {
+  display: inline-flex;
+}
+
+.cgadmin-btn {
+  margin: .25rem .5rem .5rem 0;
+}
+
+.cgadmin-btn-search {
+  background-color: #ffffff;
+}
+
+.cgadmin-btn-confirm {
+  margin: .5rem;
+}
+/* END - Button Styles */
+
+
+// Div Table Styles
+.divTableCardBody {
+  width: 99%;
+  overflow-x: auto;
+}
+
+.divTable{
+  display: table;
+  width: 100%;
+  border: 1px solid #cccccc;
+}
+
+.divTableRow {
+  display: table-row;
+}
+
+.divTableRowStriped {
+  background-color: #f5f5f5;
+}
+
+.divTableCell {
+  border: 1px solid #eeeeee;
+  display: table-cell;
+  font-size: 16px;
+  padding-top: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  white-space: nowrap;
+}
+
+.divTableCellWithWrap {
+  border: 1px solid #eeeeee;
+  display: table-cell;
+  font-size: 16px;
+  padding-top: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.divTableCellCheckbox {
+  border: 1px solid #eeeeee;
+  width: 4rem;
+  display: table-cell;
+  font-size: 16px;
+  padding: 1rem 1rem 0 1.75rem;
+  white-space: nowrap;
+}
+
+.divTableHeading {
+  background-color: #E9FFAA;
+  border: 1px solid #cccccc;
+  display: table-cell;
+  padding-top: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  height: 36px;
+  white-space: nowrap;
+}
+
+.divTableFoot {
+  background-color: #EEE;
+  display: table-footer-group;
+  font-weight: bold;
+}
+
+.divTableBody {
+  display: table-row-group;
+}
+/* END - Div Table Styles */

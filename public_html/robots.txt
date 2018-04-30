@@ -1,0 +1,100 @@
+User-Agent: *
+Allow: /
+
+user-agent: AhrefsBot
+disallow: /
+
+
+# SEOPROFILER.COM
+# IP 107.21.197.234 (ec2-107-21-197-234.compute-1.amazonaws.com)
+# Mozilla/5.0 (compatible; spbot/3.0; +http://www.seoprofiler.com/bot )
+# Mozilla/5.0 (compatible; spbot/3.1; +http://www.seoprofiler.com/bot )
+# IP-adresses starts with;
+# 23.20.*.*
+# 23.21.*.*
+# 23.22.*.*
+# 23.23.*.*
+# 50.16.*.*
+# 50.17.*.*
+# 50.19.*.*
+# 54.242.*.*
+# 67.202.*.*
+# 72.44.*.*
+# 75.101.*.*
+# 107.20.*.*
+# 107.21.*.*
+# 107.22.*.*
+# 174.129.*.*
+# 184.72.*.*
+# 184.73.*.*
+# 204.236.*.*
+User-agent: spbot
+Disallow: /
+
+# ezooms.com - One of the absolute must to block in every way you can from spying on you !!!
+# IP 208.115.113.82 Ezooms.com Mozilla/5.0 (compatible; Ezooms/1.0; ezooms.bot@gmail.com)
+# Mozilla/5.0 (compatible; Ezooms/1.0; ezooms.bot@gmail.com)
+# 208.115.111.66 208.115.111.67 208.115.111.68 208.115.111.70 208.115.111.71 208.115.111.74 208.115.111.75
+# IP-range: 208.115.96.0 - 208.115.127.255 (they don't give out bot name!). The CIDR is 208.115.111.64/28
+# wowrack dot com says that ezooms.com IP belongs to one of their clients; dotnetdotcom.org and that their main purpose for this machine is to crawl/index the content just like google bot.
+# The spider from ezooms.com visits robots.txt frequently but ignore the rules written in robots.txt.
+# Therefore the only way to stop this secret spider is to block the IP-range.
+# One of the theories is that the spider belongs to http://www.seomoz.org/ (anagram for ezooms) who tries to hide their bot in this way.
+# The email they give out is fake, just as their web site obviously is !!!
+# Ezooms is a parasite and they are definitely up to no good !!!
+User-agent: ezooms
+Disallow: /
+
+
+# sistrix (IP 5.9.112.64 - 5.9.112.95)
+User-agent: sistrix
+Disallow: /
+
+# Yandex bot - A rule breaker, just as Baidu spiders
+User-agent: Yandex
+Disallow: /
+
+# proximic.com/info/spider.php
+User-agent: proximic
+Disallow: /php/
+
+
+# Amazonaws.com - watch out for all IP's coming from amazonasws.com. There are hundreds and hundreds of bad bots! Block everything coming from this part of the Internet !!! AWS is a myriad of site scrapers or bad bots (eg dozens of twitter/facebook me-too bots) that have no obvious use and no definite IP to block.
+# All IP's from AWS;
+# 216.182.224.0/20 (216.182.224.0 - 216.182.239.255)
+# 72.44.32.0/19 (72.44.32.0 - 72.44.63.255)
+# 67.202.0.0/18 (67.202.0.0 - 67.202.63.255)
+# 75.101.128.0/17 (75.101.128.0 - 75.101.255.255)
+# 174.129.0.0/16 (174.129.0.0 - 174.129.255.255)
+# 204.236.192.0/18 (204.236.192.0 - 204.236.255.255) [previously 204.236.224.0/19]
+#
+# US West (Northern California):
+# 204.236.128.0/18 (216.236.128.0 - 216.236.191.255)
+#
+# EU (Ireland):
+# 79.125.0.0/17 (79.125.0.0 - 79.125.127.255)
+
+# In .htaccess write;
+# Deny from 216.182.224.0/20
+# Deny from 72.44.32.0/19
+# Deny from 67.202.0.0/18
+# Deny from 75.101.128.0/17
+# Deny from 174.129.0.0/16
+# Deny from 204.236.192.0/18
+# Deny from 79.125.0.0/17
+# Deny from 184.72.0.0/18
+# Deny from 184.73.0.0/16
+# Deny from 175.41.128.0/18
+# Deny from 184.72.128.0/17
+# Deny from 204.236.128.0/18
+# Deny from 184.72.64.0/18     (184.72.64.0 - 184.72.127.255)
+# Deny from 50.16.0.0/15     (50.16.0.0 - 50.17.255.255)
+# Deny from 50.19.0.0/16     (50.19.0.0 - 50.19.255.255)
+# Deny from 50.18.0.0/17     (50.18.0.0 - 50.18.127.255)
+# Deny from 46.51.128.0/18     (46.51.128.0 - 46.51.191.255)
+# Deny from 46.51.192.0/20     (46.51.192.0 - 46.51.207.255)
+# Deny from 46.137.0.0/17     (46.137.0.0 - 46.137.127.255)
+# Deny from 175.41.128.0/18     (175.41.128.0 - 175.41.191.255)
+# Deny from 122.248.192.0/18     (122.248.192.0 - 122.248.255.255)
+# Deny from 175.41.192.0/18     (175.41.192.0 - 175.41.255.255)
+# Deny from 46.51.224.0/19     (46.51.224.0 - 46.51.255.254)

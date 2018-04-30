@@ -1,0 +1,260 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                   //
+// l56starter Default Theme                                                                                          //
+//                                                                                                                   //
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+// Variables
+@import "variables";
+// Bootstrap 4
+@import "~bootstrap/scss/bootstrap";
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                   //
+// Default HTML Styles                                                                                               //
+//                                                                                                                   //
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+body {
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+  padding-top: 4.5rem;
+  background-image: url(/images/site_bkg.jpg);
+  overflow-x: hidden;
+}
+
+p {
+  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                   //
+// Bootstrap 4 Styles                                                                                                //
+//                                                                                                                   //
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// Nav / Navbar Styles
+.navbar-brand {
+  color: #3423A6 !important;
+  font-size: 1.25rem;
+}
+
+.navbar-brand:hover {
+  color: #D741A7 !important;
+}
+
+.navbar ul li a {
+  font-size: 1rem;
+  color: #D741A7;
+  padding: .65rem;
+}
+
+.navbar ul li a:hover {
+  color: #3423A6;
+  background-color: #ffff00;
+}
+
+.nav-item.active {
+  background-color: #ffffff !important;
+}
+/* END - Nav / Navbar Styles */
+
+
+// Card Styles
+.card {
+  border-radius: .25rem;
+  border: 1px solid #5ABCB9;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+/* END - Card Styles */
+
+
+// Custom Control Styles
+.custom-control-label::before,
+.custom-control-label::after {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+/* END - Custom Control Styles */
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                   //
+// Select 2 Styles                                                                                                   //
+//                                                                                                                   //
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// Select2 Styles
+.select2 {
+  width: 100% !important;
+}
+/* End Select2 Styles */
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                   //
+// Theme Specific Styles                                                                                             //
+//                                                                                                                   //
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// Site Header Styles
+.cgbg-site-header-container {
+  margin: 0 1rem 0 0 !important;
+}
+
+.cgbg-site-header {
+  background-color: #ffffff;
+  background-image: url(/images/header_bkg.png);
+  background-repeat: repeat-x;
+  height: 200px;
+}
+
+.cgbg-company-name {
+  margin: 0;
+  padding: .25rem 0 0 1rem;
+  font-weight: bold;
+  text-shadow: -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff;
+}
+
+.cgbg-slogan {
+  font-size: 18px;
+  font-weight: bold;
+  color: #524632;
+  padding: 0 0 0 2.5rem;
+  text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
+}
+/* END - Site Header Styles */
+
+
+// Social Header Styles
+.cgbg-social-card {
+  border: none;
+  margin: 0 0 1rem 0;
+}
+
+.cgbg-social-card-body {
+  padding: .15rem .5rem .25rem .5rem;
+  margin: 0;
+}
+/* END - Social Header Styles */
+
+
+// Heading Styles
+.cgbg-heading {
+  color: #2274A5;
+  border-bottom: 1px solid #A3E7FC;
+}
+
+.cgbg-heading-nb {
+  color: #0075C4;
+}
+/*END - Heading Styles */
+
+
+// Dropdown Styles
+.cgbg-dropdown-header {
+  background-color: #eeeeee;
+}
+/*END - Dropdown Styles */
+
+
+// Site Footer Styles
+.cgbg-copyright {
+  font-size: 18px;
+}
+/* END - Site Footer Styles */
+
+
+/* Form Styles */
+.cgbg-form-text-error {
+  font-size: large;
+  color: #fe5e41;
+}
+
+.cgbg-field-required:before {
+  content: '*';
+  color: red;
+  padding-right: 5px;
+}
+
+.cgbg-form-text-verified {
+  font-size: 16px;
+  color: #139a43;
+}
+
+.cgbg-form-text-unverified {
+  font-size: 16px;
+  color: #fe5e41;
+}
+/* END - Form Styles */
+
+
+/* Button Styles */
+.cgbg-btn {
+  margin: .25rem 0 .5rem 0;
+}
+
+.cgbg-btn-search {
+  background-color: #ffffff;
+}
+
+.cgbg-btn-confirm {
+  margin: .5rem;
+}
+
+.cgbg-social-login-btn {
+  margin: 1rem 0 0 0;
+}
+/* END - Button Styles */
+
+
+// Div Table Styles
+.divTable{
+  display: table;
+  width: 100%;
+  border: 1px solid #cccccc;
+}
+
+.divTableRow {
+  display: table-row;
+}
+
+.divTableCell {
+  border: 1px solid #eeeeee;
+  display: table-cell;
+  font-size: 16px;
+  padding-top: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  white-space: nowrap;
+}
+
+.divTableHeading {
+  background-color: rgba(179, 255, 179, 0.40);
+  border: 1px solid #cccccc;
+  display: table-cell;
+  padding-top: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  height: 36px;
+}
+
+.divTableFoot {
+  background-color: #EEE;
+  display: table-footer-group;
+  font-weight: bold;
+}
+
+.divTableBody {
+  display: table-row-group;
+}
+/* END - Div Table Styles */
