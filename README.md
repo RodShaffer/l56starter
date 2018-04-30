@@ -9,6 +9,8 @@ login.
 An account verification system is also in place to verify account users email address on new account registration or  
 email address change.  
   
+For a Laravel 5.5.* framework version of the starter project go [here](https://github.com/RodShaffer/l55starter).
+  
 The project uses the following packages.  
 
 [Twitter Bootstrap 4](https://getbootstrap.com/) for styling.
